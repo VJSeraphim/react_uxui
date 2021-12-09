@@ -3,8 +3,12 @@ import './header.css'
 
 const Header = () => {
     return (
-        <div>
-            
+        <div className="gpt3__header section__padding">
+            <div className="gpt3__header-content">
+                <h1 className="gradient__text">
+                    
+                </h1>
+            </div>
         </div>
     )
 }
