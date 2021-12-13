@@ -8,10 +8,10 @@ const Header = () => {
         <div className="gpt3__header section__padding">
             <div className="gpt3__header-content">
                 <h1 className="gradient__text">
-                    GPT-3 OpenAI Introduction
+                    GPT-3000 KOpenAI Introduction
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Your behaving playboy looks like you played this game before, and you now reveal your face and play? You make some money? This is boring, Have fun yourself?
                 </p>
                 <div className="gpt3__header-content__input">
                     <input type="email" placeholder="Place your Email Address Here."/>
@@ -25,12 +25,12 @@ const Header = () => {
                         alt="people"
                     />
                     <p>
-                        1,600 people requested visit in last 24 hours
+                        -3,000 ASKs requested visit in last 24 hours.
                     </p>
-                </div>
-                <div className="gpt3__header-image">
-                    <img src={ai} alt="ai" />
-                </div>
+                </div>      
+            </div>
+            <div className="gpt3__header-image">
+                <img src={ai} alt="ai" />
             </div>
         </div>
     )

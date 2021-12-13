@@ -69,7 +69,6 @@
 
     background: #FF4820;
     border-radius: 5px 0px 0px 5px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
     font-family: var(--font-family);
     font-style: normal;
     font-weight: bold;
@@ -152,5 +151,29 @@
 
     .gpt3__header-content__people p {
         margin: 0;
+    }
+
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .gpt3__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .gpt3__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
     }
 }
