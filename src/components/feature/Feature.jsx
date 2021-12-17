@@ -1,10 +1,18 @@
 import React from 'react'
 import './feature.css'
 
-const Feature = () => {
+const Feature = ({ title, text }) => {
     return (
-        <div>
-            
+        <div className="gpt3__features-container__feature">  
+            <div className="gpt3__features-container-title">
+                <div/>
+                <h1>
+                    {title}
+                </h1>
+                <div className="gpt3__features-container_feature-text">
+                    {text}
+                </div>
+            </div>
         </div>
     )
 }
