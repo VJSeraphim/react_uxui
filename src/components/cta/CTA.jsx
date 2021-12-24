@@ -3,8 +3,20 @@ import './cta.css'
 
 const CTA = () => {
     return (
-        <div>
-            
+        <div className="gpt3__cta">
+            <div className="gpt3__cta-content">
+                <p>
+                    Request Early Access to beat KoKane in KOF98.
+                </p>
+                <h3>
+                    Register today and wait for your luck! Maybe... the luck could be with you!
+                </h3>
+            </div>
+            <div className="gpt3__cta-button">
+                <button type="button">
+                    BBollong
+                </button>
+            </div>
         </div>
     )
 }
