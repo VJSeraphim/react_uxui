@@ -1,0 +1,7 @@
+.gpt3__footer{
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid white;
+    color:white;
+}
